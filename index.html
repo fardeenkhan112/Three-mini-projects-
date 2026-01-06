@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+<title>3 Mini project</title>
+</head>
+<body>
+<h1>THREE MINI PROJECT'S</h1>
+<div class="container 1">
+<h2>COUNTER</h2>
+<p id="num">0</p>
+<input type="button" value="Add" onclick="myFunction('add')">
+<input type="button" value="Reset" onclick="myFunction('reset')">
+<input type="button" value="Subtract" onclick="myFunction('subtract')">
+</div>
+<div class="container 2">
+<h2>Show Password</h2>
+<form>
+  <label>Name :</label>
+  <input type="text">
+  <label>Email :</label>
+  <input type="email">
+  <label>Password :</label>
+  <input type="password" id="password">
+  <input type="checkbox" onclick="showPassword()"> Show Password
+  <input type="button" value="Submit">
+</form>
+</div>
+<div class="container 3">
+<h2>Check Odd, Even & Prime</h2>
+<input type="number" id="number" placeholder="Enter number">
+<button onclick="checkNumber()">Check</button>
+<p id="result"></p>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
